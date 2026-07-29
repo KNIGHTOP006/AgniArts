@@ -10,7 +10,10 @@ export function Navbar() {
   return (
     <header className="nav-wrap">
       <nav className="nav container" aria-label="Main navigation">
-        <Link href="/" className="brand" onClick={() => setOpen(false)}>AGNI <span>ARTS</span></Link>
+        <Link href="/" className="brand" onClick={() => setOpen(false)}>
+          <span className="brand-logo" aria-label="Agni Arts logo placeholder">LOGO</span>
+          <span className="brand-text">AGNI <span>ARTS</span></span>
+        </Link>
         <div className="nav-links">
           {navItems.map(([label, href]) => {
             if (href.startsWith("#")) {

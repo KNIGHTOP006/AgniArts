@@ -1,0 +1,5 @@
+import { EnquiryForm } from "../../components/EnquiryForm";
+import { PageHero } from "../../components/PageHero";
+import { SectionHeader } from "../../components/SectionHeader";
+
+export default function WorkshopsPage() { return <main><PageHero label="06 — LEARNING SPACES" title="Join a workshop." text="Learn folk arts through rhythm, movement and collective practice." image="/media/8.jpg" /><section className="section container workshop-intro"><div><SectionHeader number="THE RHYTHM TRAVELS" kicker="WHERE WE GATHER" title="Every month, somewhere close." /><p>Agni conducts workshops across Bengaluru, Hosur, Chennai and different parts of Tamil Nadu.</p></div><div className="location-list"><span>Bengaluru</span><span>Hosur</span><span>Chennai</span><span>Tamil Nadu</span></div></section><section className="form-section"><div className="container form-layout"><div><p className="eyebrow">MAKE AN ENQUIRY</p><h2>Find your rhythm.</h2><p>Tell us how you&apos;d like to learn. We&apos;ll share the next suitable workshop or program.</p></div><EnquiryForm /></div></section></main>; }

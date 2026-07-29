@@ -1,0 +1,2 @@
+import { site } from "../data/site";
+export function PageHero({ label, title, text, image = site.heroImage }: { label: string; title: string; text: string; image?: string }) { return <section className="page-hero"><img src={image} alt="Agni Arts performance" /><div className="page-hero-overlay"></div><div className="container page-hero-content"><p className="eyebrow">{label}</p><h1>{title}</h1><p>{text}</p></div></section>; }

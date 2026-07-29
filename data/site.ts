@@ -3,19 +3,19 @@ export const site = {
   tagline: "THE RHYTHM OF RESISTANCE",
   email: "hello@agniarts.in", // Replace with your official email.
   instagram: "#", // Add the official social link here.
-  heroImage: "/Pictures/3.JPG", // Replace this path with your preferred hero photo.
-  introImage: "/Pictures/1.jpg",
-  paraiImage: "/Pictures/8.jpg",
+  heroImage: "/media/3.JPG", // Replace this path with your preferred hero photo.
+  introImage: "/media/1.jpg",
+  paraiImage: "/media/8.jpg",
   gallery: [
-    { src: "/Pictures/1.jpg", alt: "Agni Arts performance photo", caption: "Performance / replace caption" },
-    { src: "/Pictures/2.jpg", alt: "Agni Arts workshop photo", caption: "Workshop / replace caption" },
-    { src: "/Pictures/3.JPG", alt: "Agni Arts performance photo", caption: "Live rhythm / replace caption" },
-    { src: "/Pictures/4.jpg", alt: "Agni Arts community photo", caption: "Community / replace caption" },
-    { src: "/Pictures/5.jpg", alt: "Agni Arts performance photo", caption: "Movement / replace caption" },
-    { src: "/Pictures/6.jpg", alt: "Agni Arts portrait photo", caption: "Portrait / replace caption" },
-    { src: "/Pictures/7.jpg", alt: "Agni Arts workshop photo", caption: "Practice / replace caption" },
-    { src: "/Pictures/8.jpg", alt: "Agni Arts performance photo", caption: "Parai / replace caption" },
-    { src: "/Pictures/9.jpg", alt: "Agni Arts portrait photo", caption: "People / replace caption" },
+    { src: "/media/1.jpg", alt: "Agni Arts performance photo", caption: "Performance / replace caption" },
+    { src: "/media/2.jpg", alt: "Agni Arts workshop photo", caption: "Workshop / replace caption" },
+    { src: "/media/3.JPG", alt: "Agni Arts performance photo", caption: "Live rhythm / replace caption" },
+    { src: "/media/4.jpg", alt: "Agni Arts community photo", caption: "Community / replace caption" },
+    { src: "/media/5.jpg", alt: "Agni Arts performance photo", caption: "Movement / replace caption" },
+    { src: "/media/6.jpg", alt: "Agni Arts portrait photo", caption: "Portrait / replace caption" },
+    { src: "/media/7.jpg", alt: "Agni Arts workshop photo", caption: "Practice / replace caption" },
+    { src: "/media/8.jpg", alt: "Agni Arts performance photo", caption: "Parai / replace caption" },
+    { src: "/media/9.jpg", alt: "Agni Arts portrait photo", caption: "People / replace caption" },
   ],
 };
 

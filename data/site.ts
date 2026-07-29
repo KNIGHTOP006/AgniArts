@@ -23,4 +23,4 @@ export const navItems = [
   ["Home", "/"], ["About", "/about"], ["Parai", "/parai"], ["Academy", "/academy"], ["Performances", "/performances"], ["Workshops", "/workshops"], ["Contact", "/contact"],
 ] as const;
 
-export const partners = ["Titan Industries", "BNI Titan", "GM Infinite", "Garuda Mall", "Village Story Bengaluru", "VFC", "Azim Premji University", "St. Joseph's University", "Puvi", "Social awareness programs"];
+export const partners = ["Titan Industries", "BNI", "Volunteer for a Cause (VFC)", "GM Infinite", "Garuda Mall", "Village Story Bengaluru", "Azim Premji University", "St. Joseph's University", "Christ University", "Indian Music Experience Museum", "Museum of Art and Photography (MAP)", "Gothe Institute"];

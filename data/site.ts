@@ -5,6 +5,7 @@ export const site = {
   instagram: "https://www.instagram.com/agniartsacademy/", // Add the official social link here.
   heroImage: "/media/3.JPG", // Replace this path with your preferred hero photo.
   introImage: "/media/1.jpg",
+  TrainerImage: "/media/9.jpg",
   paraiImage: "/media/8.jpg",
   gallery: [
     { src: "/media/1.jpg", alt: "Agni Arts performance photo", caption: "Performance / replace caption" },

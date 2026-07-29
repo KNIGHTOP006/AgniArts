@@ -11,7 +11,9 @@ export function Navbar() {
     <header className="nav-wrap">
       <nav className="nav container" aria-label="Main navigation">
         <Link href="/" className="brand" onClick={() => setOpen(false)}>
-          <span className="brand-logo" aria-label="Agni Arts logo placeholder">LOGO</span>
+          <span className="brand-logo" aria-label="Agni Arts logo">
+            <img src="/media/logo.jpeg" alt="Agni Arts logo" width={48} height={48} />
+          </span>
           <span className="brand-text">AGNI <span>ARTS</span></span>
         </Link>
         <div className="nav-links">
@@ -31,7 +33,7 @@ export function Navbar() {
             );
           })}
         </div>
-        <a className="button nav-cta" href="#workshops" onClick={() => setOpen(false)}>Join a workshop <span>↗</span></a>
+        <a className="button nav-cta" href="https://wa.me/919740781481" onClick={() => setOpen(false)}>Join a workshop <span>↗</span></a>
         <button className="menu-button" aria-label="Toggle navigation" aria-expanded={open} onClick={() => setOpen(!open)}><i></i><i></i></button>
       </nav>
       <div className={`mobile-menu ${open ? "open" : ""}`}>
@@ -50,7 +52,7 @@ export function Navbar() {
             </Link>
           );
         })}
-        <a href="#workshops" className="button" onClick={() => setOpen(false)}>Join a workshop ↗</a>
+        <a href="https://wa.me/919740781481" className="button" onClick={() => setOpen(false)}>Join a workshop ↗</a>
       </div>
     </header>
   );

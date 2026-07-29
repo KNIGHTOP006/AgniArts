@@ -1,8 +1,8 @@
 export const site = {
   brand: "AGNI ARTS",
   tagline: "THE RHYTHM OF RESISTANCE",
-  email: "hello@agniarts.in", // Replace with your official email.
-  instagram: "#", // Add the official social link here.
+  email: "agniartsacadamy@gmail.com", // Replace with your official email.
+  instagram: "https://www.instagram.com/agniartsacademy/", // Add the official social link here.
   heroImage: "/media/3.JPG", // Replace this path with your preferred hero photo.
   introImage: "/media/1.jpg",
   paraiImage: "/media/8.jpg",

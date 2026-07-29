@@ -1,5 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import { Footer } from "../components/Footer";
+import { Navbar } from "../components/Navbar";
 
 export const metadata: Metadata = {
   title: "Agni Arts — The Rhythm of Resistance | Folk Arts & Parai",
@@ -14,7 +16,11 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body>
+        <Navbar />
+        {children}
+        <Footer />
+      </body>
     </html>
   );
 }

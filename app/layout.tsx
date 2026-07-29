@@ -9,7 +9,7 @@ export const metadata: Metadata = {
     "Agni Arts is a collective committed to reviving and reimagining diminishing folk arts through workshops, performances and cultural experiences across Bengaluru, Chennai, Hosur and Tamil Nadu.",
   keywords: ["Agni Arts", "Parai", "Tamil folk arts", "folk art workshops Bangalore", "Parai workshops Bangalore"],
   icons: {
-    icon: "/favicon.svg",
+    icon: "/Pictures/logo.jpeg",
   },
 };
 

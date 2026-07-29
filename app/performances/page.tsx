@@ -1,6 +1,6 @@
-import Link from "next/link";
-import { Gallery } from "../../components/Gallery";
-import { PageHero } from "../../components/PageHero";
-import { partners } from "../../data/site";
+import { redirect } from "next/navigation";
 
-export default function PerformancesPage() { return <main><PageHero label="08 — ON THE MOVE" title="We bring it to the world." text="From institutions and corporate spaces to public events and social-awareness programs." image="/media/1.jpg" /><section className="section container performance-copy"><p className="large-copy">Agni performs across Bengaluru, Hosur, Chennai and Tamil Nadu. Each performance makes space for a rhythm with a history — and a future.</p><Link className="text-link" href="/contact?type=performance">Invite Agni to perform <span>↗</span></Link></section><section className="section gallery-page"><div className="container"><p className="eyebrow">SELECTED MOMENTS</p><Gallery /><p className="caption-note">These supplied photos are linked from `data/site.ts`. Add, remove, reorder or replace images there.</p></div></section><section className="partners section container"><p className="eyebrow">AGNI HAS PERFORMED FOR</p><div>{partners.map((partner) => <span key={partner}>{partner}</span>)}</div><small>Names shown as supplied. Only add organisation logos where you have permission.</small></section><section className="section container centered-cta"><h2>Bring the rhythm<br />to your space.</h2><Link className="button" href="/contact?type=performance">Book a performance ↗</Link></section></main>; }
+export default function PerformancesPage() {
+  redirect("/");
+}
+

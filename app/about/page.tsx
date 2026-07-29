@@ -1,6 +1,6 @@
-import Link from "next/link";
-import { PageHero } from "../../components/PageHero";
-import { SectionHeader } from "../../components/SectionHeader";
-import { site } from "../../data/site";
+import { redirect } from "next/navigation";
 
-export default function AboutPage() { return <main><PageHero label="01 — THE COLLECTIVE" title="This is Agni." text="Agni Arts is a collective committed to reviving and reimagining diminishing folk arts." image={site.introImage} /><section className="section container about-intro"><div><SectionHeader number="THE FIRE" kicker="OUR PURPOSE" title="A living practice." /></div><div><p className="large-copy">We are a team trying to revive diminishing arts. Flaming like the name, we aim at passing on the fire of culture and folk tradition.</p><p>For four years, Agni has made room for people to encounter folk arts as something alive — through workshops, performances and cultural experiences.</p></div></section><section className="image-statement"><img src="/media/5.jpg" alt="Agni Arts performance" /><div><p>Culture survives when we carry it forward.</p></div></section><section className="section container timeline"><SectionHeader number="THE JOURNEY" kicker="FOUR YEARS IN MOTION" title="Where the rhythm has travelled." /><div className="timeline-grid"><p><b>200+</b> students trained through open workshops and learning spaces.</p><p><b>60+</b> performance locations across institutions, public spaces and cultural events.</p><p><b>Monthly</b> workshops across Bengaluru, Hosur, Chennai and different parts of Tamil Nadu.</p></div></section><section className="closing-words container"><span>The fire was given to us.</span><strong>We carry it forward.</strong><Link className="button" href="/workshops">Join the movement ↗</Link></section></main>; }
+export default function AboutPage() {
+  redirect("/");
+}
+

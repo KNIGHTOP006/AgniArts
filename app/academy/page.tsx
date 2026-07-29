@@ -1,6 +1,6 @@
-import Link from "next/link";
-import { PageHero } from "../../components/PageHero";
-import { SectionHeader } from "../../components/SectionHeader";
+import { redirect } from "next/navigation";
 
-const programs = [["Parai", "Learn the fundamentals, rhythms and techniques of Parai."], ["Folk Performance", "Explore movement, rhythm and collective performance."], ["Cultural Workshops", "Experience the history, context and living traditions behind folk arts."], ["Custom Programs", "Workshops designed for schools, colleges, organisations and communities."]];
-export default function AcademyPage() { return <main><PageHero label="05 — THE ACADEMY" title="Learn the rhythm." text="Don’t just watch folk art. Learn it. Feel it. Carry it forward." image="/media/7.jpg" /><section className="section container academy-copy"><SectionHeader number="THE INVITATION" kicker="MAKE SPACE FOR RHYTHM" title="Come as you are." /><p className="large-copy">Agni Arts conducts regular workshops for people interested in learning folk arts, regardless of previous experience.</p></section><section className="programs section"><div className="container"><div className="program-grid">{programs.map(([title, text], index) => <article key={title}><span>0{index + 1}</span><h2>{title}</h2><p>{text}</p></article>)}</div><Link href="/workshops" className="button">Join a workshop ↗</Link></div></section><section className="section container process"><SectionHeader number="HOW WE LEARN" kicker="THE PROCESS" title="Discover. Learn. Practice. Perform." /><div className="process-grid">{[["Discover", "Experience the history and cultural context behind the art."], ["Learn", "Understand rhythm, technique and movement through hands-on training."], ["Practice", "Build confidence through regular practice."], ["Perform", "Take what you&apos;ve learned into real performances and public spaces."]].map(([title,text], index) => <article key={title}><span>0{index + 1}</span><h3>{title}</h3><p>{text}</p></article>)}</div></section></main>; }
+export default function AcademyPage() {
+  redirect("/");
+}
+
